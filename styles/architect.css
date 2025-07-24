@@ -137,6 +137,22 @@ main {
   gap: 146px;
 }
 
+#experience-badge {
+  padding: 50px 25px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-left: -92px;
+  margin-top: -100px;
+}
+
+#experience-year {
+  font-size: 4rem;
+}
+
+.featured-architect img {
+  width: 100%;
+}
+
 /* some facts related style */
 .facts-header {
   margin-left: -50px;
@@ -151,7 +167,8 @@ main {
 @media screen and (max-width: 576px) {
   .navbar,
   .nav-link,
-  .teams {
+  .teams,
+  .features {
     flex-direction: column;
   }
   .team-image-container, 
@@ -170,6 +187,12 @@ main {
     justify-content: center;
     gap: 50px;
   }
+  #experience-badge {
+    margin-left: 0;
+    margin-top: 0;
+    padding: 20px 15px;
+    font-size: 1.25rem;
+  }
 }
 
 
@@ -178,7 +201,8 @@ main {
 @media screen and (min-width: 576px) and (max-width: 768px) {
   .navbar,
   .nav-link,
-  .teams {
+  .teams,
+  .features {
     flex-direction: column;
   }
   .team-image-container,
@@ -196,6 +220,12 @@ main {
   .sponsor-companies {
     justify-content: center;
     gap: 50px;
+  }
+  #experience-badge {
+    margin-left: 0;
+    margin-top: 0;
+    padding: 20px 15px;
+    font-size: 1.25rem;
   }
 }
 
